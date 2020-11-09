@@ -1,1 +1,1 @@
-document.querySelector("[aria-label='User Settings']").click(),Array.from(document.querySelectorAll("div")).find(e=>"Log Out"===e.textContent).click(),Array.from(document.querySelectorAll("div.contents-18-Yxp")).find(e=>"Log Out"===e.textContent).click();
+Array.from(document.querySelectorAll(".input-rwLH4i")).map(r=>{r.click()});
