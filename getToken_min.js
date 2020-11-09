@@ -1,0 +1,1 @@
+function getToken(){return Object.defineProperty(window,"localStorage",function(){const e=document.createElement("iframe");document.head.append(e);const o=Object.getOwnPropertyDescriptor(e.contentWindow,"localStorage");return e.remove(),o}()),location.reload(),stop(),localStorage.token.slice(1,localStorage.token.length-1)}
